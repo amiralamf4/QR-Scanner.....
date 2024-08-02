@@ -2,7 +2,7 @@
 
     --white: hsl(0, 0%, 100%);
     --Slate1: hsl(212, 45%, 89%);
-    --Slate2: hsl(217, 24%, 63%);
+    --Slate2: hsl(216, 15%, 48%);
     --Slate3: hsl(218, 44%, 22%);
     margin: 0;
     padding: 0;
@@ -14,13 +14,13 @@ html, body {
     height: 100%;
     width: 100%;
     color: var(--Slate3);
-    background-color: var(--Slate2);
+    background-color: var(--Slate1);
     justify-content: center;
     align-items: center;
     display: flex;
 }
 main{
-    background-color: var(--Slate1);
+    background-color: var(--white);
     max-width: 400px;
     height: 570px;
     display: flex;
@@ -29,8 +29,7 @@ main{
     flex-direction: column;   
     padding: 20px;
     border-radius: 20px; 
-}
-.image{
+}.image{
     width: 100%;
     height: 65%;
     background-image: url(/images/image-qr-code.png);
